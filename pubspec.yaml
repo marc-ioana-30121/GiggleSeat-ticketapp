@@ -1,0 +1,39 @@
+name: flutter_application_1
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  firebase_core: ^3.13.0
+  firebase_auth: ^5.5.3
+  cloud_firestore: ^5.6.7
+  cupertino_icons: ^1.0.8
+  intl: ^0.20.2
+  uuid: ^4.5.1
+  qr_flutter: ^4.1.0
+  qr_code_scanner_plus: ^2.0.10+1
+  image_picker: ^1.1.2
+  image_cropper: ^9.1.0
+  mobile_scanner: ^7.0.0-beta.4
+  google_fonts: ^6.2.1
+  path_provider: ^2.1.5
+  shared_preferences: ^2.5.3
+  firebase_storage: ^12.4.5
+  fl_chart: ^0.71.0
+  barcode_scan2: ^4.5.1
+  
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.png
